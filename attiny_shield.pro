@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/winbase/Documents/eagle/attiny_shield/attiny_shield.brd
 
-Start at      : 07:35:05 (2/12/2018)
-End at        : 07:35:07 (2/12/2018)
-Elapsed time  : 00:00:01
+Start at      : 11:57:46 (2/12/2018)
+End at        : 11:58:48 (2/12/2018)
+Elapsed time  : 00:00:03
 
-Signals       :    24   RoutingGrid: 25 mil  Layers: 2
-Connections   :    38   predefined:  0 ( 0 Vias )
+Signals       :    27   RoutingGrid: 12.5 mil  Layers: 2
+Connections   :    52   predefined:  0 ( 0 Vias )
 
-Router memory :   88440
+Router memory :   335920
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0
-max. Level        :         0         0         0         0         0
-max. Total        :         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:01
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :        38        38        38        38        38
-Vias              :        17         2         0         0         0
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        24        51        51        51        51        51
+Vias              :         0        34         5         1         1         1
+Resolution        :    46.2 %    98.1 %    98.1 %    98.1 %    98.1 %    98.1 %
 
 Final             : 100.0% finished
