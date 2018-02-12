@@ -2942,11 +2942,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="53.34" y="154.94"/>
 </segment>
 </net>
-<net name="RESET" class="0">
+<net name="TINY_RESET" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D10"/>
 <wire x1="55.88" y1="147.32" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 <label x="55.88" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<label x="134.62" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB5/PCINT5/!RESET!/ADC0/DW"/>
+<wire x1="121.92" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
+<label x="121.92" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="63.5" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="53.34" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(PCINT11/~RESET/DW)PB3"/>
+<wire x1="30.48" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="22.86" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_85" class="0">
@@ -3130,30 +3150,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="111.76" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="116.84" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="84_RESET" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="63.5" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
-<label x="53.34" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="(PCINT11/~RESET/DW)PB3"/>
-<wire x1="30.48" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
-<label x="22.86" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="85_RESET" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<label x="134.62" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB5/PCINT5/!RESET!/ADC0/DW"/>
-<wire x1="121.92" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
-<label x="121.92" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
